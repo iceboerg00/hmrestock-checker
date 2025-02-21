@@ -3,8 +3,9 @@ name: Check H&M Stock
 on:
   workflow_dispatch: # Das erlaubt manuelles Auslösen
   schedule:
-    # Führe die Aktion jede Stunde aus
-    - cron: "0 * * * *"
+  # Führe die Aktion alle 5 Minuten aus
+  - cron: "*/5 * * * *"
+
 
 jobs:
   check:
