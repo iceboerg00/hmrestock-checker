@@ -11,7 +11,7 @@ TELEGRAM_CHAT_IDS = ["5189098255", "8172032949"]  # Liste mit Telegram-Chat-IDs
 
 # URL der Produktseite
 PRODUCT_URL = "https://www2.hm.com/de_de/productpage.1268595001.html"
-SIZE_TO_CHECK = "L"  # Größe, die überprüft werden soll
+SIZE_TO_CHECK = "S"  # Größe, die überprüft werden soll
 
 # Selenium WebDriver initialisieren
 options = webdriver.ChromeOptions()
