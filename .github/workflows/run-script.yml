@@ -24,4 +24,4 @@ jobs:
 
     - name: Run script
       run: |
-        python hmrestock.py
+        python hmrestock.py also so
