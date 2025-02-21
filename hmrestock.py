@@ -79,7 +79,4 @@ def send_telegram_notification():
         except Exception as e:
             print(f"❌ Schwerwiegender Fehler beim Senden der Telegram-Nachricht an {chat_id}: {e}")
 
-# Endlosschleife zur regelmäßigen Überprüfung
-while True:
-    check_product_availability()
-    time.sleep(300)  # Überprüfung alle 5 Minuten
+check_product_availability()
