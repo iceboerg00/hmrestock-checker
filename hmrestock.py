@@ -9,8 +9,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 TELEGRAM_BOT_TOKEN = "7890069335:AAEnE02uww7G9yFjCo6KJcgr-8SfRcqTp_k"
 TELEGRAM_CHAT_IDS = ["5189098255", "8172032949"]
 PRODUCT_URL = (
-    "https://www.popmart.com/de/products/1991/"
-    "THE-MONSTERS-Big-into-Energy-Series-Vinyl-Plush-Pendant-Blind-Box"
+    "https://www.popmart.com/de/products/276/"
+    "CRYBABY%20Monster%20Tears%20Series"
 )
 # —————————————————————————
 
