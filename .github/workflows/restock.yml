@@ -1,6 +1,7 @@
 name: Restock Bot
 
 on:
+  workflow_dispatch:    # manuelles Triggern möglich
   schedule:
     # Läuft alle 5 Minuten
     - cron: '*/5 * * * *'
